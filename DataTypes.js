@@ -72,8 +72,8 @@ console.log(!(4 === '4')); // true
 //Write a script that prompts the user to enter base and write another prompt for height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
 
 
-//let base = parseFloat(prompt("Enter the base of the triangle:"));
-//let height = parseFloat(prompt("Enter the height of the triangle:"));
+let base = parseFloat(prompt("Enter the base of the triangle:"));
+let height = parseFloat(prompt("Enter the height of the triangle:"));
 
 let area = 0.5 * base * height;
 
@@ -181,7 +181,7 @@ let b = 40;
 if (a > b) {
     console.log("a is greater than b");
 } else {
-    console.log("a is less than b");
+    console.log("a is less than b"); 
 }
 
 let result = a > b? "a is greater than b" : "a is less than b";
